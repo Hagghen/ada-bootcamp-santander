@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo CSS</title>
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- Esse link serve para direcionar para um arquivo CSS externo.
+    Vantagens de CSS Externo:
+    Como o código CSS está num documento separado, os seus arquivos HTML terão uma estrutura mais limpa e serão menores.
+    O mesmo arquivo .css pode ser usado em várias páginas.
+
+    Desvantagens de CSS Externo:
+    Até que o CSS externo seja carregado, a página pode não ser processada corretamente.
+    Fazer o upload ou links para múltiplos arquivos CSS pode aumentar o tempo de download do seu site.
+    -->
+
+    <style>
+        h2{
+            color: chocolate;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+    </style>
+    <!-- Vantagens de CSS Interno:
+        Classes e seletores de IDs podem ser usados ​​por stylesheet interno.
+        Não há necessidade de carregar vários arquivos. HTML e CSS podem estar no mesmo arquivo.
+
+        Desvantagens de CSS Interno:
+        Adicionar o código para o documento HTML pode aumentar o tamanho da página e o tempo de carregamento.
+    -->
+
+</head>
+<body>
+
+    <h1>Aprendendo CSS</h1>
+    <hr>
+    
+    <h2>Começando a estilizar</h2>
+
+    <h3 style="color: blueviolet; font-size: 20px; text-decoration: underline;">Dá pra fazer milhões de coisas</h3>
+    <!-- Vantagens do CSS Inline :
+        Você pode inserir elementos CSS de maneira fácil e rápida numa página HTML. É por isso que esse método é útil para testar e pré-visualizar mudanças, assim como executar correções rápidas no seu site.
+        Você não precisa criar e fazer upload de um documento separado como no estilo externo.
+
+        Desvantagens do Inline CSS:
+        Adicionar regras CSS para cada elemento HTML consome muito tempo e faz a sua estrutura HTML ficar bagunçada.
+        Estilizar múltiplos elementos pode afetar o tamanho da sua página o tempo para download. -->
+
+</body>
+</html>
